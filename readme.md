@@ -36,3 +36,10 @@ _Links:_
 - [Guides](https://docs.expo.dev/guides/overview/)
 - [Reference](https://docs.expo.dev/versions/latest/)
 - [Learn](https://docs.expo.dev/tutorial/introduction/)
+
+## Packages
+
+- Firebase - [Docs](https://docs.expo.dev/guides/using-firebase/)
+
+- react-native-async-storage/async-storage
+	- `npx expo install @react-native-async-storage/async-storage` - [Docs](https://docs.expo.dev/versions/latest/sdk/async-storage/)
