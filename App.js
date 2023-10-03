@@ -1,13 +1,20 @@
+import { Provider as StateProvider } from 'react-redux';
+
+import RootRoute from './src/routes/root.routes';
+import store from './src/redux/store';
+
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import { getApps } from 'firebase/app';
-console.log(getApps);
+
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <StateProvider store={store}>
+      <RootRoute />
+      <View style={styles.container}>
+        <Text>YO Open up App.js to start working on your app!</Text>
+        <StatusBar style="auto" />
+      </View>
+    </StateProvider>
   );
 }
 

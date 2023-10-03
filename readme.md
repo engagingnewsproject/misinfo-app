@@ -59,3 +59,19 @@ _Links:_
 
 - react-native-async-storage/async-storage
 	- `npx expo install @react-native-async-storage/async-storage` - [Docs](https://docs.expo.dev/versions/latest/sdk/async-storage/)
+	
+## Create a build for emulator/simulator
+
+[_docs_](https://docs.expo.dev/develop/development-builds/create-a-build/#create-a-build-for-emulatorsimulator)
+
+- Run the following command to create the development build on an iOS Simulator:
+
+	```
+	eas build --profile development-simulator --platform ios
+	```
+## Expo Commands
+
+Open on the web:
+```
+npx expo start -w
+```
