@@ -37,9 +37,25 @@ _Links:_
 - [Reference](https://docs.expo.dev/versions/latest/)
 - [Learn](https://docs.expo.dev/tutorial/introduction/)
 
+## Tools
+
+- [VSCode Expo Tools](https://marketplace.visualstudio.com/items?itemName=expo.vscode-expo-tools)
 ## Packages
 
+1. Install the latest EAS CLI
+	- EAS CLI is the command-line app that you will use to interact with EAS services from your terminal. To install it, run the command [Docs](https://docs.expo.dev/build/setup/#install-the-latest-eas-cli):
+
+		```
+		npm install -g eas-cli
+
+		```
+2. [Build for iOS Simulators](https://docs.expo.dev/build-reference/simulators/)
+
+		- iOS bundle identifier: `com.cme.misinfoApp`
+		
 - Firebase - [Docs](https://docs.expo.dev/guides/using-firebase/)
+	- `npx expo install firebase` - [Firebase JS SDK Installation](https://docs.expo.dev/guides/using-firebase/#install-and-initialize-firebase-js-sdk)
+	- [How to Create an Expo App with React-Native Firebase](https://www.youtube.com/watch?v=mZlKwRV4MC8)
 
 - react-native-async-storage/async-storage
 	- `npx expo install @react-native-async-storage/async-storage` - [Docs](https://docs.expo.dev/versions/latest/sdk/async-storage/)

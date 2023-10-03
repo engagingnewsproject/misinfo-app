@@ -2,6 +2,7 @@
 
 # dependencies
 node_modules/
+package-lock.json
 
 # Expo
 .expo/
@@ -27,9 +28,18 @@ yarn-error.*
 # macOS
 .DS_Store
 *.pem
+ios/
+
+# android
+android/
 
 # local env files
 .env*.local
 
 # typescript
 *.tsbuildinfo
+
+#firebase
+firebaseConfig.js
+google-services.json
+GoogleService-Info.plist
