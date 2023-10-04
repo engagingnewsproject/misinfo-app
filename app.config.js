@@ -9,8 +9,7 @@ export default {
     icon: "./assets/icon.png",
     userInterfaceStyle: "light",
     plugins: [
-      [
-        'expo-build-properties',
+      ["expo-build-properties", 
         {
           android: {
             compileSdkVersion: 31,
@@ -22,6 +21,8 @@ export default {
           },
         },
       ],
+      ["expo-localization"],
+      ["expo-router"],
     ],
     splash: {
       image: "./assets/splash.png",
